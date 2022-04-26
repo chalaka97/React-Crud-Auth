@@ -15,25 +15,11 @@
       "addedby": "fb_chalaka"
     },
     {
-      "id": 1003,
-      "name": "Chalaka",
-      "email": "chalaka@gmail.com",
+      "name": "Supun Chalaka",
+      "email": "supunchalaka@gmail.com",
       "city": "Colombo",
-      "addedby": "fb_chalaka"
-    },
-    {
-      "name": "Ranathunga Arachchilage Damith Chathuranga Manabarana",
-      "email": "supunchalaka@gmail.com",
-      "city": "Kuala Lumpur",
       "addedby": "test",
-      "id": 1006
-    },
-    {
-      "name": "Supun asdasd",
-      "email": "supunchalaka@gmail.com",
-      "city": "sdf",
-      "addedby": "test",
-      "id": 1007
+      "id": 1003
     }
   ]
 }

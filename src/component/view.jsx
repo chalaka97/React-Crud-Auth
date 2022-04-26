@@ -2,9 +2,11 @@ import React, {useEffect, useState} from "react";
 import Button from "bootstrap/js/src/button";
 import {UserService} from "../services/UserService";
 import Loader from "./loader";
-import {Link} from "react-router-dom";
+import {Link ,useNavigate} from "react-router-dom";
 
 let View = () => {
+
+    let navigate = useNavigate();
     //get api data
     let [state, setState] = useState({
         //dataState
@@ -46,6 +48,25 @@ let View = () => {
         myUsersData();
     }, []);
 
+    //delete function here
+    let clickDeleteUser = async (userID)=>{
+        try {
+            let response = await UserService.deleteUser(userID);
+            if(response){
+                let responseData = await UserService.getAllUsers();
+                setState({
+                    ...state,
+                    loading: false,
+                    users: responseData.data
+                });
+            }
+        }
+        catch (error){
+            console.log(error.message);
+        }
+    }
+    //end delete function
+
     let {loading,users,errorMsg} = state; //data state
 
     //end api data
@@ -81,7 +102,7 @@ let View = () => {
                                             <td>{users.city}</td>
                                             <td>{users.addedby}</td>
                                             <td><Link to={`/edit/${users.id}`} className="btn btn-primary">Edit</Link></td>
-                                            <td><Link to={`/edit/${users.id}`} className="btn btn-danger">Delete</Link></td>
+                                            <td><button  className="btn btn-danger" onClick={() => clickDeleteUser(users.id)}>Delete</button></td>
                                         </tr>
                                     )
                                 })
