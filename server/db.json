@@ -9,7 +9,7 @@
     },
     {
       "id": 1002,
-      "name": "Chalaka",
+      "name": "S.Chalaka",
       "email": "chalaka@gmail.com",
       "city": "Colombo",
       "addedby": "fb_chalaka"
@@ -22,37 +22,18 @@
       "addedby": "fb_chalaka"
     },
     {
-      "name": [
-        "Aluthgedara Anulawathi"
-      ],
-      "email": [
-        "supunchalaka97@gmail.com"
-      ],
-      "city": [
-        "Kuala Lumpur"
-      ],
-      "addedby": "test",
-      "id": 1004
-    },
-    {
-      "name": [
-        "Supun Chalaka"
-      ],
-      "email": [
-        "supunchalaka@gmail.com"
-      ],
-      "city": [
-        "Colombo"
-      ],
-      "addedby": "test",
-      "id": 1005
-    },
-    {
       "name": "Ranathunga Arachchilage Damith Chathuranga Manabarana",
       "email": "supunchalaka@gmail.com",
       "city": "Kuala Lumpur",
       "addedby": "test",
       "id": 1006
+    },
+    {
+      "name": "Supun asdasd",
+      "email": "supunchalaka@gmail.com",
+      "city": "sdf",
+      "addedby": "test",
+      "id": 1007
     }
   ]
 }

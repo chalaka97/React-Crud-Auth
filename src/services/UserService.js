@@ -15,4 +15,12 @@ export class UserService{
         let dataURL = `${this.serverURL}/users`;
         return axios.post(dataURL,users);
     }
+    static editSingleUser(user,userID){
+        let dataURL = `${this.serverURL}/users/${userID}`;
+        return axios.put(dataURL,user);
+    }
+    static deleteUser(userID){
+        let dataURL = `${this.serverURL}/users/${userID}`;
+        return axios.delete(dataURL);
+    }
 }
