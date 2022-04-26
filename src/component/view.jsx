@@ -51,6 +51,7 @@ let View = () => {
     //delete function here
     let clickDeleteUser = async (userID)=>{
         try {
+            setState({...state,loading: true})
             let response = await UserService.deleteUser(userID);
             if(response){
                 let responseData = await UserService.getAllUsers();
