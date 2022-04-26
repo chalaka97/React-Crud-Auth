@@ -1,25 +1,58 @@
 {
   "users": [
     {
-      "id": "1001",
+      "id": 1001,
       "name": "Supun",
       "email": "supun@gmail.com",
       "city": "Colombo",
       "addedby": "fb_supun"
     },
     {
-      "id": "1002",
+      "id": 1002,
       "name": "Chalaka",
       "email": "chalaka@gmail.com",
       "city": "Colombo",
       "addedby": "fb_chalaka"
     },
     {
-      "id": "1003",
+      "id": 1003,
       "name": "Chalaka",
       "email": "chalaka@gmail.com",
       "city": "Colombo",
       "addedby": "fb_chalaka"
+    },
+    {
+      "name": [
+        "Aluthgedara Anulawathi"
+      ],
+      "email": [
+        "supunchalaka97@gmail.com"
+      ],
+      "city": [
+        "Kuala Lumpur"
+      ],
+      "addedby": "test",
+      "id": 1004
+    },
+    {
+      "name": [
+        "Supun Chalaka"
+      ],
+      "email": [
+        "supunchalaka@gmail.com"
+      ],
+      "city": [
+        "Colombo"
+      ],
+      "addedby": "test",
+      "id": 1005
+    },
+    {
+      "name": "Ranathunga Arachchilage Damith Chathuranga Manabarana",
+      "email": "supunchalaka@gmail.com",
+      "city": "Kuala Lumpur",
+      "addedby": "test",
+      "id": 1006
     }
   ]
 }

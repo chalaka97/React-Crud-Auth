@@ -51,7 +51,8 @@ let Edit = () => {
                             {
                                 Object.keys(user).length > 0 &&
                                 <form className="row mt-2 p-3 g-3">
-
+                                    <input type="hidden" className="form-control" defaultValue={user.id}
+                                           id="inputId"/>
                                     <div className="col-md-4">
                                         <label htmlFor="inputName" className="form-label">Name</label>
                                         <input type="text" className="form-control" defaultValue={user.name}
