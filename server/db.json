@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1001",
+      "name": "Supun",
+      "email": "supun@gmail.com",
+      "city": "Colombo",
+      "addedby": "fb_supun"
+    },
+    {
+      "id": "1002",
+      "name": "Chalaka",
+      "email": "chalaka@gmail.com",
+      "city": "Colombo",
+      "addedby": "fb_chalaka"
+    },
+    {
+      "id": "1003",
+      "name": "Chalaka",
+      "email": "chalaka@gmail.com",
+      "city": "Colombo",
+      "addedby": "fb_chalaka"
+    }
+  ]
+}
