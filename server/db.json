@@ -1,13 +1,6 @@
 {
   "users": [
     {
-      "id": 1001,
-      "name": "Supun",
-      "email": "supun@gmail.com",
-      "city": "Colombo",
-      "addedby": "fb_supun"
-    },
-    {
       "id": 1002,
       "name": "S.Chalaka",
       "email": "chalaka@gmail.com",
@@ -20,6 +13,13 @@
       "city": "Kuala Lumpur",
       "addedby": "test",
       "id": 1003
+    },
+    {
+      "name": "Ranathunga Arachchilage Damith Chathuranga Manabarana",
+      "email": "supunchalaka@gmail.com",
+      "city": "Kuala Lumpur",
+      "addedby": "test",
+      "id": 1004
     }
   ]
 }

@@ -22,7 +22,6 @@ let Create = () => {
                 ...state.users,
                 [event.target.name] : event.target.value
 
-
             }
         })
     };

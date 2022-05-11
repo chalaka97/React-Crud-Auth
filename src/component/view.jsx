@@ -28,7 +28,10 @@ let View = () => {
     useEffect(() => {
         async function myUsersData() {
             try {
-                setState({...state,loading: true})
+                setState({
+                    ...state,
+                    loading: true}
+                )
                 let responseData = await UserService.getAllUsers();
                 setState({
                     ...state,

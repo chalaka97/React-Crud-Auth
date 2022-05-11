@@ -23,13 +23,13 @@ let Signup = () =>{
 
 
                         </div>
-                        <div className="bottom-container mt-3">
+                        {/*<div className="bottom-container mt-3">
                             <div className="row">
                                 <div className="col-12">
                                     <a href="#"  className="btnn text-white text-center">Sign up</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>*/}
                     </form>
                 </div>
 
